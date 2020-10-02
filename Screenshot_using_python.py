@@ -7,5 +7,8 @@ im.show()
 im=ImageGrab.grab(bbox=(10,10,500,500))
 im.show()
 
+# asking the file to save the image in
+file = input("by what name do you want to save the image?/n")
+
 # to file
-ImageGrab.grab_to_file('im.png')
+ImageGrab.grab_to_file(file)
